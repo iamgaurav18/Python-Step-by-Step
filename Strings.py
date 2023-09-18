@@ -10,4 +10,4 @@ s=input("Enter Your first Name: ")
 
 #inorder to print each character
 for i in s:
-    print(i)
+    print(i) 
