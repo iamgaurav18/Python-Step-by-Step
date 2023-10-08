@@ -19,3 +19,9 @@ f=open("dummy.txt","a")  # this will open the file in append mode and add the ne
 f.close()
 f=open("dummy.txt","w")
 f.write("Hellow world")
+f.close()
+
+# to do all this task but with a simple and effective way
+
+with open("dummy.txt","r") as f:
+    print(f.read())
