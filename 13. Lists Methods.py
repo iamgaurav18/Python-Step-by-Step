@@ -31,3 +31,7 @@ print(l)         # this will add the values in list m at the end of list l
 
 k=l+m
 print(k)
+
+a=[1,2,3,4,5,10]
+print(a.pop()) #this will print the element from the last of a list and also remove it from the list
+print(a.pop(2)) #this will remove the element at the specified positon from the list
